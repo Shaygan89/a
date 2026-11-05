@@ -1,0 +1,11 @@
+MyLauncher toolchain
+
+Gradle: 8.13
+Android Gradle Plugin: 8.12.0
+Kotlin: 2.3.21
+compileSdk: 36
+targetSdk: 36
+minSdk: 31
+JDK: 17
+
+AGP 8.12 officially uses Gradle 8.13 and supports API 36. This project intentionally uses AGP 8.12.0 because the installed Android Studio reports 8.12.0 as its latest supported AGP.

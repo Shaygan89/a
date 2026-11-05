@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        This is only the Android window host theme. The actual visible UI is
+        Jetpack Compose Material 3, so this parent does not determine the
+        launcher's visual design.
+
+        Theme.Material.NoActionBar is available on the API levels supported
+        by this project and avoids depending on OEM-specific framework theme
+        aliases such as Theme.DeviceDefault.DayNight.NoActionBar.
+    -->
+    <style name="Theme.MyLauncher" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+STUDENT HELPER — PERFORMANCE PATCH
+
+1. Close Android Studio or stop any running Gradle build.
+2. Extract this ZIP.
+3. Copy the contents of the extracted folder into the root of your existing StudentHelper project.
+4. Allow Windows to merge folders and overwrite the listed files.
+5. Open Android Studio and Sync Project with Gradle Files.
+6. Run the app normally. Keep the existing installation on your phone; installing the update over it should preserve DataStore tasks.
+
+This patch does not change applicationId, SDK levels, requested AGP/Kotlin/Gradle/Compose versions, the screen layout, colors, shapes, or animation timings.
+
+If you already made changes to any of the included files, compare/merge those changes before overwriting them.
